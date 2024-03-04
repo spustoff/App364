@@ -16,7 +16,7 @@ struct Users_2: View {
     var body: some View {
         ZStack {
             
-            Color("bg2")
+            Color("bg3")
                 .ignoresSafeArea()
             
             VStack {
@@ -61,7 +61,7 @@ struct Users_2: View {
                         .font(.system(size: 15, weight: .medium))
                         .frame(maxWidth: .infinity)
                         .frame(height: 50)
-                        .background(RoundedRectangle(cornerRadius: 15).fill(Color("primary")))
+                        .background(RoundedRectangle(cornerRadius: 15).fill(Color(red: 60/255, green: 182/255, blue: 251/255)))
                         .padding()
                 })
             }
